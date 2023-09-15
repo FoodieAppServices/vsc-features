@@ -1,7 +1,7 @@
 {
-    "name": "GCloud",
-    "id": "dart-sdk",
-    "version": "0.0.5",
+    "name": "GCloud SDK",
+    "id": "gcloud-sdk",
+    "version": "0.0.6",
     "description": "Install the Google Cloud SDK using the zip archive downloaded from GCloud",
     "documentationURL": "https://github.com/FoodieAppServices/vsc-features/blob/main/src/gcloud",
     "containerEnv": {},
