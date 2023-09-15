@@ -1,7 +1,7 @@
 {
     "name": "Dart",
     "id": "dart-sdk",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Install the Dart SDK",
     "documentationURL": "https://github.com/FoodieAppServices/vsc-features/blob/main/src/dart-sdk",
     "containerEnv": {
