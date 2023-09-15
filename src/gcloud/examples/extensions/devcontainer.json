@@ -1,0 +1,15 @@
+{
+    "name": "Flutter SDK: With Dart and Flutter extensions",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/FoodieAppServices/vsc-features/gcloud:0": {
+            "version": "442.0.0",
+            "installFirestoreEmulator": true
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    },
+}

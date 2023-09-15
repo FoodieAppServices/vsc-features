@@ -7,7 +7,7 @@
     "containerEnv": {
         "DART_HOME": "/opt/dart-sdk",
         "DART_ROOT": "$DART_HOME",
-        "PATH": "$PATH:$DART_HOME/bin:$PUB_CACHE/bin"
+        "PATH": "$PATH:$DART_HOME/bin"
     },
     "customizations": {
         "vscode": {
