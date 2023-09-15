@@ -1,19 +1,13 @@
 {
-    "name": "Dart",
+    "name": "GCloud",
     "id": "dart-sdk",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Install the Google Cloud SDK using the zip archive downloaded from GCloud",
     "documentationURL": "https://github.com/FoodieAppServices/vsc-features/blob/main/src/gcloud",
-    "containerEnv": {
-        "DART_HOME": "/opt/dart-sdk",
-        "DART_ROOT": "$DART_HOME",
-        "PATH": "$PATH:$DART_HOME/bin"
-    },
+    "containerEnv": {},
     "customizations": {
         "vscode": {
-            "extensions": [
-                "dart-code.dart-code"
-            ]
+            "extensions": []
         }
     },
     "options": {
