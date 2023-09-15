@@ -1,7 +1,7 @@
 {
     "name": "GCloud SDK",
     "id": "gcloud-sdk",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Install the Google Cloud SDK using the zip archive downloaded from GCloud",
     "documentationURL": "https://github.com/FoodieAppServices/vsc-features/blob/main/src/gcloud",
     "containerEnv": {},
@@ -9,9 +9,9 @@
         "version": {
             "type": "string",
             "proposals": [
-                "442.0.0"
+                "446.0.1"
             ],
-            "default": "442.0.0",
+            "default": "446.0.1",
             "description": "Select or enter a Google Cloud SDK version"
         },
         "installFirestoreEmulator": {

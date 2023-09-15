@@ -2,9 +2,10 @@
 
 GCLOUD_VER="${VERSION:-"lts"}"
 INSTALL_FIRESTORE_EMULATOR="${INSTALLFIRESTOREEMULATOR:-""}"
+USERNAME="${USERNAME:-"${_REMOTE_USER:-"automatic"}"}"
 
 ARCH=$(uname -m)
-ZSHRC=${HOME}/.zshrc
+ZSHRC=/home/${USERNAME}/.zshrc
 
 function add_path {
     echo "path+=$1" >>${ZSHRC}
@@ -27,7 +28,7 @@ tar xvf gcloud.tgz &>/dev/null
 echo "Installing firestore"
 chmod -R a+rw google-cloud-sdk
 
-if [[ "${INSTALL_ANT}" = "true" ]] && ! ant -version >/dev/null; then
+if [[ "${INSTALL_FIRESTORE_EMULATOR}" = "true" ]] && ! ant -version >/dev/null; then
     sdk_install ant ${ANT_VERSION}
     yes | google-cloud-sdk/bin/gcloud components install beta cloud-firestore-emulator
 fi
