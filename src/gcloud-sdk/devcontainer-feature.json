@@ -1,15 +1,10 @@
 {
     "name": "GCloud SDK",
     "id": "gcloud-sdk",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Install the Google Cloud SDK using the zip archive downloaded from GCloud",
     "documentationURL": "https://github.com/FoodieAppServices/vsc-features/blob/main/src/gcloud",
     "containerEnv": {},
-    "customizations": {
-        "vscode": {
-            "extensions": []
-        }
-    },
     "options": {
         "version": {
             "type": "string",

@@ -7,7 +7,7 @@ Install the Flutter SDK
 
 ```json
 "features": {
-    "ghcr.io/FoodieAppServices/vsc-features/dart-sdk:0": {}
+    "ghcr.io/FoodieAppServices/vsc-features/gcloud-sdk:0": {}
 }
 ```
 
